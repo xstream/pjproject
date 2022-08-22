@@ -1,0 +1,14 @@
+# Package Information for pkg-config
+
+prefix=/home/xst/src/pjproject-2.12.1/usr
+exec_prefix=${prefix}
+libdir=/home/xst/src/pjproject-2.12.1/usr/lib
+includedir=/home/xst/src/pjproject-2.12.1/usr/include
+
+Name: libpjproject
+Description: Multimedia communication library
+URL: http://www.pjsip.org
+Version: 2.12.1
+Libs: -L/home/xst/src/pjproject-2.12.1/usr/lib -lpjsua2-x86_64-unknown-linux-gnu -lstdc++ -lpjsua-x86_64-unknown-linux-gnu -lpjsip-ua-x86_64-unknown-linux-gnu -lpjsip-simple-x86_64-unknown-linux-gnu -lpjsip-x86_64-unknown-linux-gnu -lpjmedia-codec-x86_64-unknown-linux-gnu -lpjmedia-x86_64-unknown-linux-gnu -lpjmedia-videodev-x86_64-unknown-linux-gnu -lpjmedia-audiodev-x86_64-unknown-linux-gnu -lpjmedia-x86_64-unknown-linux-gnu -lpjnath-x86_64-unknown-linux-gnu -lpjlib-util-x86_64-unknown-linux-gnu -lpj-x86_64-unknown-linux-gnu
+Libs.private:  -lsrtp-x86_64-unknown-linux-gnu -lresample-x86_64-unknown-linux-gnu -lgsmcodec-x86_64-unknown-linux-gnu -lspeex-x86_64-unknown-linux-gnu -lilbccodec-x86_64-unknown-linux-gnu -lg7221codec-x86_64-unknown-linux-gnu -lyuv-x86_64-unknown-linux-gnu -lwebrtc-x86_64-unknown-linux-gnu  -lbcg729 -lssl -lcrypto -luuid -lm -lrt -lpthread  -lasound  
+Cflags: -I/home/xst/src/pjproject-2.12.1/usr/include -DPJ_AUTOCONF=1  -DPJ_IS_BIG_ENDIAN=0 -DPJ_IS_LITTLE_ENDIAN=1
